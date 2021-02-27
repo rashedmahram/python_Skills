@@ -24,6 +24,7 @@ list
 ## Strings:
 
 list
+
 : str ---->`  firstName="Rasheed" ` 
 
 : str ---->` message = """This is a string ` `that will span across multiple lines. Using ` `newline characters`
@@ -32,7 +33,9 @@ list
 ## List
 
 `A = [ ] # This is a blank list variable`
+
 `B = [1, 23, 45, 67] # this list creates an initial list of 4 numbers.`
+
 `C = [2, 4, 'john'] `
 
 All lists in Python are zero-based indexed. When referencing a member or the length of a list the number of list elements is always the number shown plus one.
@@ -40,6 +43,7 @@ All lists in Python are zero-based indexed. When referencing a member or the len
 ## Tuple
 
 `myGroup = ('Rhino', 'Grasshopper', 'Flamingo', 'Bongo')`
+
 Here are some advantages of tuples over lists:
 
 Elements to a tuple. Tuples have no append or extend method.
@@ -54,6 +58,8 @@ It seems tuples are very restrictive, so why are they useful? There are many dat
 Dictionaries in Python are lists of Key:Value pairs. This is a very powerful datatype to hold a lot of related information that can be associated through keys. The main operation of a dictionary is to extract a value based on the key name. Unlike lists, where index numbers are used, dictionaries allow the use of a key to access its members. Dictionaries can also be used to sort, iterate and compare data.
 
 Dictionaries are created by using braces ( { } ) with pairs separated by a comma ( , ) and the key values associated with a colon( : ). In Dictionaries the Key must be unique. Here is a quick example on how dictionaries might be used:
-`room_num = {'john': 425, 'tom': 212}
-`
+
+`room_num = {'john': 425, 'tom': 212}`
+
+
 `print (room_num.keys()) # print out a list of keys in the dictionary`
