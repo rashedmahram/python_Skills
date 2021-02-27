@@ -1,5 +1,5 @@
 # Overview
-****Python has five standard Data Types:
+**Python has five standard Data Types:**
 
 - Numbers
 - String
@@ -13,14 +13,19 @@ Python sets the variable type based on the value that is assigned to it. Unlike 
 
 list
 : int  ------->  `a=10`
+
 : long   -------> ` b=345L`
+
 : float -------> `c=45.32`
+
 : complex  -------> `d=3.12J`
+
 
 ## Strings:
 
 list
-: str ---->`  firstName="Rasheed" `
+: str ---->`  firstName="Rasheed" ` 
+
 : str ---->` message = """This is a string ` `that will span across multiple lines. Using ` `newline characters`
 `and no spaces for the next lines. The end of lines within this string also count as a newline when printed""" `
 
