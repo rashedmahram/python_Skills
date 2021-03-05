@@ -18,5 +18,3 @@ frozenset_=({'val'})
 # 3. del any whare
 # 3. search in the list
 # 4. update the values 
-
-
